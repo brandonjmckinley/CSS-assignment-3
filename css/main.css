@@ -159,36 +159,17 @@ a:hover {
           "footer       footer";
   }
 
-  #arial {
+  #arial, #georgia {
       padding: 1rem;
       padding-right: .5rem;
   }
-  #georgia {
-      padding: 1rem;
-      padding-left: .5rem;
-  }
 
-  #pairing {
-      padding: 1rem;
-  }
-
-  #bobwhite-quail {
-      padding: 1rem;
-  }
-
-  #readability {
-      padding: 1rem;
-  }
-  #line-length {
+  #pairing, #bobwhite-quail, #readability, #line-length, #typeface {
       padding: 1rem;
   }
 
   #helvetica {
       margin: 0;
-      padding: 1rem;
-  }
-
-  #typeface {
       padding: 1rem;
   }
 
