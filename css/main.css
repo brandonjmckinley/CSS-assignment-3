@@ -13,6 +13,7 @@ body {
     color: #333; /* keep */
     margin: 0; /* keep */
 }
+
 h1, h2 {
     font-family: 'Bree Serif', 'Palatino', 'Big Caslon', serif;
 }
@@ -85,7 +86,7 @@ header {
     background: #a8e8ff; /* keep */
     padding: 3rem;
     margin: 0;
-    font-size: 110%;
+    font-size: 120%;
 }
 #bobwhite-quail {
     grid-area: bobwhite-quail; /* keep */
@@ -97,13 +98,11 @@ header {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
     padding: 2rem 2rem 1rem .5rem;
-    font-size: 85%;
 }
 #line-length {
     grid-area: line-length; /* keep */
     background: #d2f4ff; /* keep */
     padding: 2rem 2rem 1rem .5rem;
-    font-size: 85%;
 }
 #helvetica {
     grid-area: helvetica; /* keep */
@@ -116,7 +115,6 @@ header {
     color: #d2f4ff; /* keep */
     background: #5598b2; /* keep */
     padding: 2rem;
-    font-size: 90%;
     text-shadow: 1px 1px 1px #333;
 }
 footer {
@@ -141,6 +139,10 @@ a:hover {
 /* media queries below - only 1 is needed */
 
 @media screen and (max-width: 600px) {
+
+  header img {
+    display: none;
+  }
 
   #container {
       grid-template-columns: repeat(2, 1fr);
