@@ -66,6 +66,7 @@ header {
     grid-area: header; /* keep */
     background: #fff; /* keep */
     text-align: center;
+    font-size: 150%;
 }
 #arial {
     grid-area: arial; /* keep */
@@ -86,7 +87,7 @@ header {
     background: #a8e8ff; /* keep */
     padding: 3rem;
     margin: 0;
-    font-size: 120%;
+    font-size: 150%;
 }
 #bobwhite-quail {
     grid-area: bobwhite-quail; /* keep */
@@ -121,6 +122,7 @@ footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
     padding: 1rem 2rem;
+    text-align: center;
 }
 
 /* end of all 10 grid items */
@@ -139,6 +141,10 @@ a:hover {
 /* media queries below - only 1 is needed */
 
 @media screen and (max-width: 600px) {
+
+  header {
+      padding: 1.5rem;
+  }
 
   header img {
     display: none;
@@ -175,6 +181,7 @@ a:hover {
 
   footer {
       padding: 1rem;
+      text-align: left;
   }
 
 }
